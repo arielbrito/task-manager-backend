@@ -1,4 +1,6 @@
-markdown
+
+
+```markdown
 # Task Manager API
 
 ## Descripción del Proyecto
@@ -18,7 +20,6 @@ Task Manager API es una aplicación backend diseñada para gestionar tareas de m
 ## Arquitectura
 
 ### Tecnologías Utilizadas
-
 - NestJS
 - Prisma
 - JWT (JSON Web Tokens)
@@ -26,7 +27,6 @@ Task Manager API es una aplicación backend diseñada para gestionar tareas de m
 - Jest
 
 ### Estructura de la Aplicación
-
 - **src/**: Contiene todo el código fuente del proyecto.
   - **auth/**: Módulo responsable de la autenticación.
   - **users/**: Módulo para la gestión de usuarios y roles.
@@ -37,29 +37,25 @@ Task Manager API es una aplicación backend diseñada para gestionar tareas de m
 ## Instalación y Configuración
 
 ### Requisitos Previos
-
 - Node.js v14 o superior
 - npm
 - PostgreSQL
 
 ### Instalación
-
 1. Clonar el repositorio:
-  bash
+   ```bash
    git clone https://github.com/tu-usuario/task-manager-backend.git
    cd task-manager-backend
-
-
-
+   ```
 2. Instalar dependencias:
-bash
+   ```bash
    npm install
-
+   ```
 3. Configurar variables de entorno:
-  plaintext
+   ```plaintext
    DATABASE_URL=postgresql://user:password@localhost:5432/mydb
    JWT_SECRET=your_jwt_secret_key
-
+   ```
 
 ## Estructura del Proyecto
 
@@ -71,42 +67,36 @@ bash
 ## Ejecución de la Aplicación
 
 ### Modo Desarrollo
-
-bash
+```bash
 npm run start:dev
-
+```
 
 ### Modo Producción
-
-bash
+```bash
 npm run build
 npm run start:prod
-
+```
 
 ## Pruebas
 
 ### Ejecución de Pruebas Unitarias
-
-bash
+```bash
 npm run test
-
+```
 
 ### Pruebas en Modo Watch
-
-bash
+```bash
 npm run test:watch
-
+```
 
 ### Cobertura de Pruebas
-
-bash
+```bash
 npm run test:cov
-
+```
 
 ## Contribuciones
 
 ### Guía de Contribución
-
 1. Haz un fork del repositorio.
 2. Crea una rama (`feature/nueva-funcionalidad`).
 3. Haz commit de tus cambios.
@@ -114,20 +104,19 @@ npm run test:cov
 5. Abre un Pull Request.
 
 ### Estilo de Código
-
 - Formateo con Prettier:
-`bash
+  ```bash
   npm run format
-
+  ```
 - Linting con ESLint:
-bash
+  ```bash
   npm run lint
-
+  ```
 
 ## Publicación
 
 ### Documentación de la API
-
 - Swagger: `http://localhost:3000/api`
 
+---
 
