@@ -52,14 +52,14 @@ Task Manager API es una aplicación backend diseñada para gestionar tareas de m
 
 
 2. Instalar dependencias:
-   ```bash
+bash
    npm install
-   ```
+
 3. Configurar variables de entorno:
-   ```plaintext
+  plaintext
    DATABASE_URL=postgresql://user:password@localhost:5432/mydb
    JWT_SECRET=your_jwt_secret_key
-   ```
+
 
 ## Estructura del Proyecto
 
@@ -89,19 +89,19 @@ npm run start:prod
 
 bash
 npm run test
-```
+
 
 ### Pruebas en Modo Watch
 
-```bash
+bash
 npm run test:watch
-```
+
 
 ### Cobertura de Pruebas
 
-```bash
+bash
 npm run test:cov
-```
+
 
 ## Contribuciones
 
@@ -116,13 +116,13 @@ npm run test:cov
 ### Estilo de Código
 
 - Formateo con Prettier:
-  ```bash
+`bash
   npm run format
-  ```
+
 - Linting con ESLint:
-  ```bash
+bash
   npm run lint
-  ```
+
 
 ## Publicación
 
@@ -130,4 +130,4 @@ npm run test:cov
 
 - Swagger: `http://localhost:3000/api`
 
----
+
