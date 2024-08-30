@@ -45,11 +45,11 @@ Task Manager API es una aplicación backend diseñada para gestionar tareas de m
 ### Instalación
 
 1. Clonar el repositorio:
-   ```bash
+  bash
    git clone https://github.com/tu-usuario/task-manager-backend.git
    cd task-manager-backend
-   ```
-````
+
+
 
 2. Instalar dependencias:
    ```bash
@@ -72,22 +72,22 @@ Task Manager API es una aplicación backend diseñada para gestionar tareas de m
 
 ### Modo Desarrollo
 
-```bash
+bash
 npm run start:dev
-```
+
 
 ### Modo Producción
 
-```bash
+bash
 npm run build
 npm run start:prod
-```
+
 
 ## Pruebas
 
 ### Ejecución de Pruebas Unitarias
 
-```bash
+bash
 npm run test
 ```
 
